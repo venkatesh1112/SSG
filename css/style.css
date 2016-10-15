@@ -184,7 +184,7 @@ h1 , h2 , h3 , h4 , h5 , h6{
 	background-repeat:no-repeat;
 	background-position:50%;
 	background-size:cover;
-	animation-name:imgchg;
+	/*animation-name:imgchg;
 	animation-duration:10s;
 	animation-direction:alternate;
 	animation-iteration-count:infinite;*/
@@ -971,21 +971,27 @@ iframe{
 	padding:10px;
 	text-align:center;
 	margin-top:10px;
+	
+
 }
 
 .address-head{
 	font-size:25px;
 	font-weight:bold;
-	color: rgb(52,73,94);
+	color: white;
 }
 
 .address-para{
 	font-size:18px;
-	color: rgb(52,73,94);
+	color: white;
 }
 
 .add-bold{
 	font-weight:bold;
+}
+
+.add_bg{
+	background-color: rgb(44,62,80); 
 }
 /*---------------------------------------FOOTER--------------------------*/
 
@@ -1033,3 +1039,13 @@ iframe{
 	margin-left:10px;
 }
 
+.add_foot{
+	 background-color:rgb(44,62,80);
+}
+
+.add_foot_cont{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 0;
+	border: 1px solid black;
+}
