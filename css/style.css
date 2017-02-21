@@ -1049,3 +1049,43 @@ iframe{
 	padding: 10px 0;
 	border: 1px solid black;
 }
+
+
+@media handheld, only screen and (max-width: 767px) {
+	/*.com, .align_center {
+		padding: 2%;
+		box-sizing: border-box;
+	}
+	
+	.vid_div, .frm_con, .pro_con_div, .pro_img_div, .pro_img_div1, .pro_det_div, .pro_det_div1, .pro_demo_vid_div, .pro_demo_vid_con_div, .pro_con_div1, .contact_div, .foot_menu, .dumm, .contact_img_div, .contact_det_div {
+		margin: 1% 0;
+		width: 100%;
+	}
+	
+	.dis_nn {
+		display: none !important;
+	}
+	
+	.mob_togg {
+		padding: 1px;
+	}
+	
+	.mob_togg {
+		display: block;
+	}
+	
+	.pro_demo_vid_con_div1 ul li {
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.mob_mnu {
+		display: block;
+	}
+	.col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12, ul.testi_li li, ul.soci_li li {
+		width: 100%;
+		margin: 15px 0;
+	}
+	.mysty{
+		width: 100%;
+	}*/
+}
