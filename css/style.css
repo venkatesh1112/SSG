@@ -28,13 +28,13 @@ h1 , h2 , h3 , h4 , h5 , h6{
 	background-color:#34495E;
 	position:fixed;
 	top:0;
-	height:50px;
+	height:44px;
 	transition: top 0.2s ease-in-out;
 	z-index:1;
 }
 
 .nav-up{
-	top:-50px;
+	top:-54px;
 }
 
 .main-content{
@@ -1050,7 +1050,25 @@ iframe{
 	border: 1px solid black;
 }
 
+.mob_mnu select {
+        background: #fff;
+          border: 1px solid #c4d1d9;
+          border-radius: 4px;
+          color: #333;
+          font-size: 14px;
+          height: 34px;
+          line-height: 1.42857;
+          padding: 6px 12px;
+        font-family: 'Open Sans', sans-serif;
+      }
 
+      .mob_mnu select:focus {
+          border: 1px solid #0064ad;
+      }
+
+      .mob_mnu {
+        display: none;
+      }
 @media handheld, only screen and (max-width: 767px) {
 	/*.com, .align_center {
 		padding: 2%;
@@ -1088,4 +1106,24 @@ iframe{
 	.mysty{
 		width: 100%;
 	}*/
+	.mob_mnu{
+		display: block !important;
+	}
+	.navdiv{
+		display: none;
+	}
+	.logo h1{
+		font-size: 26px;
+		margin-left: 0px;
+	}
+	.logo{
+		text-align: center;
+	}
+	.mob_mnu select{
+		background: #34495E !important;
+		color: #BAC1C5 !important;
+	}
+	.arrow{
+		display: none;
+	}
 }
