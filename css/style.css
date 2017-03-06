@@ -1107,7 +1107,7 @@ iframe{
 		width: 100%;
 	}*/
 	.mob_mnu{
-		display: block !important;
+		display: block;
 	}
 	.navdiv{
 		display: none;
