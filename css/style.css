@@ -481,4 +481,10 @@ iframe{
 	.arrow{
 		display: none;
 	}
+	.banner_h1{
+		font-size: 17px;
+	}
+	.banner_p{
+		font-size: 15px;
+	}
 }
